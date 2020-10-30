@@ -1,0 +1,19 @@
+.custom-nav a{
+    font-weight:500;
+    color: white;
+}
+.custom-nav a:hover{
+    text-decoration: none;
+    color: white;
+}
+.custom-link a{
+    padding-right:20px;
+}
+.custom-nav{
+    margin-bottom:50px;
+}
+@media only screen and (max-width: 300px) {
+    .custom-nav-responsive a{
+      font-size: 16px;
+    }
+  }

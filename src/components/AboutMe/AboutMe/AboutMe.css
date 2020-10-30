@@ -1,0 +1,14 @@
+.about img{
+    width: 100%;
+}
+.about a{
+    font-weight:bold;
+    color:black;
+    background-color:white;
+    padding: 8px 15px 8px 15px;
+}
+
+.about a:hover{
+    outline:none;
+    text-decoration: none;
+}

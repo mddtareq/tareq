@@ -1,0 +1,27 @@
+.single-project img{
+    width: 100%;
+    height: 220px;
+}
+.custom-card{
+    padding:20px;
+}
+.custom-text{
+    height: 65px;
+}
+.link a{
+    border-radius:3px;
+    color:rgb(255, 255, 255);
+    padding:8px 15px 8px 15px;
+    background-color: #52c234;
+}
+.link a:hover{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 300px) {
+    .link a{
+        color:rgb(255, 255, 255);
+        padding:6px;
+    }
+  }

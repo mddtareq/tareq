@@ -1,0 +1,12 @@
+import gray from '../images/projectImages/gray.png'
+var projects = [
+    {id:1,name: 'Amish Bazar',description: 'It is the front end of an eCommerce site. Basic raw technology is used for this project.',liveLink: 'https://mddtareq.github.io/amish-bazar/',repositoryLink: 'https://github.com/mddtareq/amish-bazar',image: gray,technology: 'HTML, CSS, JavaScript, Bootstrap.',type: 'basic'},
+    {id:2,name: 'Creative Agency',description: 'A react application for agency services.',liveLink: 'https://creative-agency-tareq.web.app/',repositoryLink: 'https://github.com/mddtareq/creative-agency',image: gray,technology: 'HTML,CSS, JAVASCRIPT, Bootstrap, React,Firebase,MongoDB.',type: 'react'},
+    {id:3,name: 'To Do',description: 'Simple to do system using react and redux.',liveLink: 'https://to-do-redux.web.app/',repositoryLink: 'https://github.com/mddtareq/To-Do-Redux',image: gray,technology: 'HTML, CSS, JavaScript, React, Bootstrap, Redux.',type: 'react'},
+    {id:4,name: 'Volunteer Work',description: 'A react app to track volunteer services.',liveLink: 'https://volunteer-work-tareq.firebaseapp.com/',repositoryLink: 'https://github.com/mddtareq/volunteer-work',image: gray,technology: 'HTML, CSS, JavaScript, Bootstrap, React ,MongoDB, Firebase.',type: 'react'},
+    {id:5,name: 'Travel Guru',description: 'A react app for tourist services.',liveLink: 'https://travel-guru32.web.app/',repositoryLink: 'https://github.com/mddtareq/travel-guru',image: gray,technology: 'HTML, CSS, JavaScript, Bootstrap, React, Firebase.',type: 'react'},
+    {id:6,name: 'Lenox Shop',description: 'PSD to HTML/CSS convert shopping Site.',liveLink: 'https://mddtareq.github.io/shop-assignment/',repositoryLink: 'https://github.com/mddtareq/shop-assignment',image: gray,technology: 'HTML, CSS, JavaScript, Bootstrap.',type: 'basic'},
+    {id:7,name: 'Pin Matcher',description: 'Pin Matcher',liveLink: 'https://mddtareq.github.io/pin-matcher',repositoryLink: 'https://github.com/mddtareq/pin-matcher',image: gray,technology: 'HTML, CSS, JavaScript, Bootstrap.',type: 'basic'},
+    {id:8,name: 'Pin Matcher',description: 'Dynamic Grading',liveLink: 'https://mddtareq.github.io/dynamic-grading/',repositoryLink: 'https://github.com/mddtareq/dynamic-grading',image: gray,technology: 'HTML, CSS, JavaScript, Bootstrap.',type: 'basic'}
+]
+export default projects;

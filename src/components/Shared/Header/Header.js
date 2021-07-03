@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import icon from '../../../images/profile/tareqCircleMain.png'
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
@@ -7,7 +8,7 @@ const Header = () => {
     return (
             <Navbar className="custom-nav" collapseOnSelect expand="md" variant="dark">
             <Container>
-            <Navbar.Brand className="custom-nav-responsive"><Link to="/">Mohammad Tareq</Link></Navbar.Brand>
+            <Navbar.Brand className="custom-nav-responsive"><Link to="/"> <span className="icon-name">Tareq</span> </Link></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="custom-link ml-auto">

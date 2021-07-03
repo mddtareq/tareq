@@ -1,0 +1,39 @@
+.single-blog img{
+    width: 100%;
+    height: 220px;
+}
+.custom-card-blog{
+    transition:0.5s;
+    padding:20px;
+}
+.custom-card-blog:hover{
+    transition:0.3s;
+    padding:5px 15px 5px 5px;
+}
+
+.custom-card-blog .custom-text{
+    height: 60px;
+}
+
+.custom-card-blog .custom-title{
+    height: 40px;
+}
+
+.custom-card-blog .link a{
+    text-align: center;
+    width:100%;
+    border-radius:3px;
+    color:rgb(255, 255, 255);
+    padding:8px 15px 8px 15px;
+    background-color: #0000009d;
+}
+.custom-card-blog .link a:hover{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px){
+    .custom-card-blog .custom-title{
+        height: 60px;
+    }
+}

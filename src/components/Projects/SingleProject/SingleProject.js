@@ -7,7 +7,7 @@ const SingleProject = ({ project }) => {
     return (
         <Col className="custom-card" md={4}>
             <Card className='single-project'>
-                <Card.Img variant="top" src={project.image} />
+                <Card.Img variant="top" src={project.image1} />
                 <Card.Body>
                     <Card.Title>
                         <Link to={"/project/"+project.id}>
@@ -17,7 +17,7 @@ const SingleProject = ({ project }) => {
                     <Card.Text className="custom-text">
                         {project.description}
                     </Card.Text>
-                    <div className="link d-flex justify-content-around">
+                    <div className="link d-flex justify-content-between">
                         <a href={project.liveLink} target="_blank">Live Link</a>
                         <a href={project.repositoryLink} target="_blank">Repository Link</a>
                     </div>

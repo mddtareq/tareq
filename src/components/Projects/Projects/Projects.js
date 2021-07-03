@@ -29,7 +29,6 @@ const Projects = () => {
                 <button onClick={() => setCategory('all')}>All</button>
                 <button onClick={() => setCategory('basic')}>Basic</button>
                 <button onClick={() => setCategory('react')}>React</button>
-                <button>Angular</button>
             </div>
             <div className="row">
                 {filter.map(project => <SingleProject key={project.id} project={project}></SingleProject>)}

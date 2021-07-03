@@ -3,16 +3,22 @@
     height: 220px;
 }
 .custom-card{
+    transition:0.5s;
     padding:20px;
 }
+.custom-card:hover{
+    transition:0.3s;
+    padding:5px 15px 5px 5px;
+}
+
 .custom-text{
-    height: 65px;
+    height: 40px;
 }
 .link a{
     border-radius:3px;
     color:rgb(255, 255, 255);
     padding:8px 15px 8px 15px;
-    background-color: #52c234;
+    background-color: #0000009d;
 }
 .link a:hover{
     color:rgb(255, 255, 255);
@@ -23,5 +29,13 @@
     .link a{
         color:rgb(255, 255, 255);
         padding:6px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .link a{
+        font-size:14px;
+        color:rgb(255, 255, 255);
+        padding:4px;
     }
   }

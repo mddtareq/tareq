@@ -1,12 +1,26 @@
+.profile{
+    padding:10%;
+    margin-top:10%;
+}
+
 .profile img{
     width:100%;
-    
+}
+
+.profile-name{
+    color:#ffffff;
+}
+
+.profile-type{
+    margin-left: 10px;
+    color:#da6e3c;
 }
 
 .cv a{
-    font-weight:bold;
-    color:black;
-    background-color:white;
+    font-weight:500;
+    border-radius: 3px;
+    color:rgba(0, 0, 0, 0.822);
+    background-color:#ff6b6b;
     padding: 8px 15px 8px 15px;
 }
 
@@ -14,3 +28,21 @@
     outline:none;
     text-decoration: none;
 }
+
+.social-icon{
+    margin-top:15px;
+}
+
+.social-icon a{
+    margin-right:5px;
+    padding:0px 10px 6px 10px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.781);
+    color:black;
+    font-size:25px;
+}
+@media only screen and (max-width: 767px) {
+    .profile img{
+        margin-bottom: 15px;
+    }
+  }

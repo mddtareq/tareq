@@ -1,14 +1,23 @@
 .about img{
+    border-radius:5px;
     width: 100%;
+    margin-bottom: 15px;
 }
 .about a{
-    font-weight:bold;
-    color:black;
-    background-color:white;
+    border-radius: 3px;
+    font-weight:500;
+    color:rgba(0, 0, 0, 0.822);
+    background-color:#ff6b6b;
     padding: 8px 15px 8px 15px;
 }
 
 .about a:hover{
     outline:none;
     text-decoration: none;
+}
+
+.about p{
+    font-weight: 400;
+    color: rgb(235, 234, 234);
+    font-size: 18px;
 }

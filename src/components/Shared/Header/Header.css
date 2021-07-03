@@ -10,7 +10,12 @@
     padding-right:20px;
 }
 .custom-nav{
+    background-color:rgba(0, 0, 0, 0.13);
     margin-bottom:50px;
+}
+.icon-name{
+    font-size:30px;
+    
 }
 @media only screen and (max-width: 300px) {
     .custom-nav-responsive a{

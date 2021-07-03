@@ -1,0 +1,25 @@
+.contact{
+    margin-top: 35px;
+}
+
+.contact h5{
+    margin-top: 10px;
+}
+
+.touch{
+    margin-top:30px;
+}
+
+.touch input{
+    margin-bottom:33px;
+}
+
+.custom-submit{
+    margin-top: 10px;
+    font-weight:400;
+    background-color:#ff6b6b;
+    outline:none;
+    border:none;
+    border-radius:3px;
+    padding:5px 25px 5px 25px;
+}

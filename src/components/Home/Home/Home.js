@@ -5,7 +5,7 @@ import './Home.css'
 const Home = () => {
     return (
         <Container>
-            <Profile></Profile>
+                <Profile></Profile>
         </Container>
     );
 };

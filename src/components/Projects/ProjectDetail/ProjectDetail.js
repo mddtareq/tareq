@@ -11,8 +11,8 @@ const ProjectDetail = () => {
             <h1>Project Detail : {foundProject.name}</h1>
             <div className="newline"></div>
             <div className="image-group">
-            <img src={foundProject.image} alt="" />
-            <img src={foundProject.image} alt="" />
+            <img src={foundProject.image1} alt="" />
+            <img src={foundProject.image2} alt="" />
             </div>
             <h6>Project Description : {foundProject.description}</h6>
             <h6>Technology Used : {foundProject.technology}</h6>
